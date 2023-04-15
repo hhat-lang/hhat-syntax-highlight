@@ -1,0 +1,25 @@
+{
+  "name": "hat",
+  "displayName": "hat",
+  "description": "H-Hat Quantum Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "hhat",
+      "aliases": ["H-Hat", "hhat"],
+      "extensions": [".hat"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "hhat",
+      "scopeName": "source.hat",
+      "path": "./syntaxes/hhat.tmLanguage.json"
+    }]
+  }
+}
